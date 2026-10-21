@@ -1,0 +1,33 @@
+HANGULCRAFT GITHUB FIX — IMPORTANT
+==================================
+The previous GitHub Actions run in superdannysup-ops/651 FAILED because it did
+NOT contain tools/validate_lessons.py. The workflow was uploaded, but the
+Minecraft mod source files were missing from the repository root.
+
+HOW TO FIX
+1. Extract this ZIP on your computer (do not upload the ZIP as one file).
+2. In the extracted folder, you should see: build.gradle, settings.gradle,
+   gradle.properties, src, tools, and .github.
+3. Open your GitHub repository > Code > Add file > Upload files.
+4. Drag ALL extracted files and folders from THIS folder into the upload box.
+   Do NOT drag the enclosing folder, or the ZIP itself. Make sure it does not
+   create a nested HangulCraft/ directory in GitHub.
+5. Commit the files to main. If GitHub complains about an existing workflow,
+   you can keep your existing .github/workflows/build.yml and upload the other
+   files first; that is enough to fix the validator file-not-found error.
+6. Verify GitHub repository root includes:
+   - build.gradle
+   - settings.gradle
+   - gradle.properties
+   - tools/validate_lessons.py
+   - src/main/java/com/hangulcraft/HangulCraftMod.java
+   - src/main/resources/fabric.mod.json
+   - .github/workflows/build.yml
+7. Go to Actions > Build HangulCraft JAR > Run workflow.
+8. If it succeeds, open the run > Artifacts > HangulCraft-Minecraft-1.21.1.
+
+NOTES
+- The lesson validator PASSES locally (163 vocabulary entries, 25 grammar
+  questions, 273 trigger mappings). The actual Gradle compile has NOT been
+  run or verified in this environment; a new compiler error is still possible.
+- GitHub does not automatically extract uploaded ZIP files.
