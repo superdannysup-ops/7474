@@ -1,0 +1,327 @@
+[
+  {
+    "id": "g01",
+    "prompt": "저는 사과를 먹어요.",
+    "answers": [
+      "I eat an apple.",
+      "An apple eats me.",
+      "I make apples.",
+      "I drink water."
+    ],
+    "correct": 0,
+    "explanation": "저는 = I (topic); 사과를 = apple (object); 먹어요 = eat. The particle 를 marks the object.",
+    "level": "A1"
+  },
+  {
+    "id": "g02",
+    "prompt": "저는 집에 가요.",
+    "answers": [
+      "I am at home.",
+      "I go home.",
+      "I build a house.",
+      "I eat at home."
+    ],
+    "correct": 1,
+    "explanation": "에 marks a destination with 가요 (go). 집에 가요 = go home.",
+    "level": "A1"
+  },
+  {
+    "id": "g03",
+    "prompt": "저는 동굴에서 돌을 캐요.",
+    "answers": [
+      "I leave the cave.",
+      "I find a stone.",
+      "I mine stone in a cave.",
+      "I am a cave."
+    ],
+    "correct": 2,
+    "explanation": "에서 marks where an action happens; 을 marks the object.",
+    "level": "A1"
+  },
+  {
+    "id": "g04",
+    "prompt": "상자 안에 사과가 있어요.",
+    "answers": [
+      "There is an apple inside the chest.",
+      "The chest eats an apple.",
+      "There is an apple outside.",
+      "There are no apples."
+    ],
+    "correct": 0,
+    "explanation": "안에 = inside; 이/가 있어요 = there is/are.",
+    "level": "A1"
+  },
+  {
+    "id": "g05",
+    "prompt": "좀비가 없어요.",
+    "answers": [
+      "There is a zombie.",
+      "The zombie is big.",
+      "I see a zombie.",
+      "There is no zombie."
+    ],
+    "correct": 3,
+    "explanation": "없어요 = there is not / do not have. 있어요 = there is / have.",
+    "level": "A1"
+  },
+  {
+    "id": "g06",
+    "prompt": "나무를 베고 집을 지어요.",
+    "answers": [
+      "I sleep then wake up.",
+      "I chop wood and build a house.",
+      "I run away from home.",
+      "I find a forest."
+    ],
+    "correct": 1,
+    "explanation": "-고 connects actions: 베고 (chop and), 지어요 (build).",
+    "level": "A1"
+  },
+  {
+    "id": "g07",
+    "prompt": "음식이 맛있어요.",
+    "answers": [
+      "The food is delicious.",
+      "The food is expensive.",
+      "I have no food.",
+      "I am cooking food."
+    ],
+    "correct": 0,
+    "explanation": "이 is the subject particle here; 맛있어요 = is delicious.",
+    "level": "A1"
+  },
+  {
+    "id": "g08",
+    "prompt": "물 좀 주세요.",
+    "answers": [
+      "Please give me some water.",
+      "Please throw away the water.",
+      "Is that water?",
+      "I do not need water."
+    ],
+    "correct": 0,
+    "explanation": "주세요 is a polite request: please give me. 좀 softens the request.",
+    "level": "A1"
+  },
+  {
+    "id": "g09",
+    "prompt": "다이아몬드를 찾았어요.",
+    "answers": [
+      "I will find a diamond.",
+      "I cannot find a diamond.",
+      "I found a diamond.",
+      "I am diamond."
+    ],
+    "correct": 2,
+    "explanation": "찾았어요 is the past tense of 찾다 (to find).",
+    "level": "A1"
+  },
+  {
+    "id": "g10",
+    "prompt": "여기에 몬스터가 많아요.",
+    "answers": [
+      "There are no monsters here.",
+      "There are many monsters here.",
+      "Where are the monsters?",
+      "Monsters are sleeping."
+    ],
+    "correct": 1,
+    "explanation": "많아요 = are many; 여기에 = here.",
+    "level": "A1"
+  },
+  {
+    "id": "g11",
+    "prompt": "배가 더 빨라요.",
+    "answers": [
+      "The boat is slower.",
+      "The boat is smaller.",
+      "The boat is heavier.",
+      "The boat is faster."
+    ],
+    "correct": 3,
+    "explanation": "더 means more; 빨라요 means fast. 더 빨라요 = faster.",
+    "level": "A2"
+  },
+  {
+    "id": "g12",
+    "prompt": "비가 오지만 나가고 싶어요.",
+    "answers": [
+      "It is raining, but I want to go outside.",
+      "It is sunny, so I want to sleep.",
+      "I went out before it rained.",
+      "I want to build a roof."
+    ],
+    "correct": 0,
+    "explanation": "-지만 means but/although. -고 싶어요 expresses wanting to do something.",
+    "level": "A2"
+  },
+  {
+    "id": "g13",
+    "prompt": "내일 광산에 갈 거예요.",
+    "answers": [
+      "I went mining yesterday.",
+      "I am mining right now.",
+      "I will go to the mine tomorrow.",
+      "I cannot enter the mine."
+    ],
+    "correct": 2,
+    "explanation": "-(으)ㄹ 거예요 expresses a future plan; 내일 = tomorrow.",
+    "level": "A2"
+  },
+  {
+    "id": "g14",
+    "prompt": "제가 만든 검이에요.",
+    "answers": [
+      "I lost this sword.",
+      "It is a sword that I made.",
+      "I want to make a sword.",
+      "You made that sword."
+    ],
+    "correct": 1,
+    "explanation": "만든 is the past noun modifier of 만들다; 제가 만든 검 = the sword I made.",
+    "level": "A2"
+  },
+  {
+    "id": "g15",
+    "prompt": "돌을 캐려고 곡괭이를 만들었어요.",
+    "answers": [
+      "I made a pickaxe in order to mine stone.",
+      "I mined a pickaxe with stone.",
+      "I lost the stone and pickaxe.",
+      "I cannot make a pickaxe."
+    ],
+    "correct": 0,
+    "explanation": "-(으)려고 expresses intention/purpose: 캐려고 = in order to mine.",
+    "level": "A2"
+  },
+  {
+    "id": "g16",
+    "prompt": "문을 열고 들어갔어요.",
+    "answers": [
+      "I opened the door and went inside.",
+      "I shut the door and went to sleep.",
+      "I waited outside the door.",
+      "I built a door."
+    ],
+    "correct": 0,
+    "explanation": "열고 = opened and; 들어갔어요 = went inside (past).",
+    "level": "A2"
+  },
+  {
+    "id": "g17",
+    "prompt": "나무보다 돌이 더 단단해요.",
+    "answers": [
+      "Wood is stronger than stone.",
+      "Stone is harder than wood.",
+      "Stone and wood are identical.",
+      "I like wood more."
+    ],
+    "correct": 1,
+    "explanation": "보다 marks the comparison standard; 더 단단해요 = is harder.",
+    "level": "A2"
+  },
+  {
+    "id": "g18",
+    "prompt": "지금 집을 짓고 있어요.",
+    "answers": [
+      "I built the house yesterday.",
+      "I will build a house.",
+      "I am building a house right now.",
+      "I want to buy a house."
+    ],
+    "correct": 2,
+    "explanation": "-고 있어요 is progressive (am/is/are doing). 짓고 있어요 = am building.",
+    "level": "A2"
+  },
+  {
+    "id": "g19",
+    "prompt": "비가 오면 집에 있을 거예요.",
+    "answers": [
+      "I never stay home.",
+      "I have to go outside.",
+      "I hope it rains today.",
+      "If it rains, I will stay home."
+    ],
+    "correct": 3,
+    "explanation": "-(으)면 means if/when. 오면 = if it comes/rains.",
+    "level": "A2"
+  },
+  {
+    "id": "g20",
+    "prompt": "집에 가기 전에 음식을 먹어요.",
+    "answers": [
+      "I eat before going home.",
+      "I eat after going home.",
+      "I eat at home every day.",
+      "I eat because I am tired."
+    ],
+    "correct": 0,
+    "explanation": "-기 전에 = before doing; 가기 전에 = before going.",
+    "level": "A2"
+  },
+  {
+    "id": "g21",
+    "prompt": "횃불을 가지고 오세요.",
+    "answers": [
+      "Please make a torch.",
+      "Please bring a torch.",
+      "Please take away the torch.",
+      "Please turn off the light."
+    ],
+    "correct": 1,
+    "explanation": "가지고 오세요 is a polite request to bring something.",
+    "level": "A2"
+  },
+  {
+    "id": "g22",
+    "prompt": "양이 세 마리 있어요.",
+    "answers": [
+      "There are three sheep.",
+      "I have three books.",
+      "There are three trees.",
+      "There is one sheep."
+    ],
+    "correct": 0,
+    "explanation": "마리 is a counting unit for animals; 세 마리 = three animals.",
+    "level": "A2"
+  },
+  {
+    "id": "g23",
+    "prompt": "철을 구울 수 있어요.",
+    "answers": [
+      "I cannot find iron.",
+      "Iron is too expensive.",
+      "I can smelt iron.",
+      "I will eat iron."
+    ],
+    "correct": 2,
+    "explanation": "-(으)ㄹ 수 있어요 means can / be able to.",
+    "level": "A2"
+  },
+  {
+    "id": "g24",
+    "prompt": "문을 닫지 마세요.",
+    "answers": [
+      "Please open the door.",
+      "Please shut the door.",
+      "Please make a door.",
+      "Please do not close the door."
+    ],
+    "correct": 3,
+    "explanation": "-지 마세요 is a polite negative command: please do not.",
+    "level": "A2"
+  },
+  {
+    "id": "g25",
+    "prompt": "배고파서 빵을 먹었어요.",
+    "answers": [
+      "I baked bread for you.",
+      "I ate bread because I was hungry.",
+      "I bought bread after work.",
+      "I was not hungry."
+    ],
+    "correct": 1,
+    "explanation": "-아서/어서 can show a reason: 배고파서 = because I was hungry.",
+    "level": "A2"
+  }
+]

@@ -1,0 +1,2204 @@
+[
+  {
+    "id": "wood",
+    "ko": "나무",
+    "en": "wood",
+    "pronunciation": "namu",
+    "category": "nature",
+    "level": "A1",
+    "example_ko": "나무가 필요해요.",
+    "example_en": "I need wood.",
+    "triggers": [
+      "minecraft:oak_log",
+      "minecraft:spruce_log",
+      "minecraft:birch_log",
+      "minecraft:jungle_log",
+      "minecraft:acacia_log",
+      "minecraft:dark_oak_log",
+      "minecraft:mangrove_log",
+      "minecraft:cherry_log",
+      "minecraft:oak_wood"
+    ]
+  },
+  {
+    "id": "stone",
+    "ko": "돌",
+    "en": "stone",
+    "pronunciation": "dol",
+    "category": "nature",
+    "level": "A1",
+    "example_ko": "돌을 캐요.",
+    "example_en": "I mine stone.",
+    "triggers": [
+      "minecraft:stone",
+      "minecraft:cobblestone"
+    ]
+  },
+  {
+    "id": "soil",
+    "ko": "흙",
+    "en": "dirt",
+    "pronunciation": "heuk",
+    "category": "nature",
+    "level": "A1",
+    "example_ko": "흙을 파요.",
+    "example_en": "I dig dirt.",
+    "triggers": [
+      "minecraft:dirt",
+      "minecraft:coarse_dirt",
+      "minecraft:rooted_dirt"
+    ]
+  },
+  {
+    "id": "water",
+    "ko": "물",
+    "en": "water",
+    "pronunciation": "mul",
+    "category": "nature",
+    "level": "A1",
+    "example_ko": "물을 마셔요.",
+    "example_en": "I drink water.",
+    "triggers": [
+      "minecraft:water_bucket"
+    ]
+  },
+  {
+    "id": "apple",
+    "ko": "사과",
+    "en": "apple",
+    "pronunciation": "sagwa",
+    "category": "food",
+    "level": "A1",
+    "example_ko": "사과를 먹어요.",
+    "example_en": "I eat an apple.",
+    "triggers": [
+      "minecraft:apple"
+    ]
+  },
+  {
+    "id": "pickaxe",
+    "ko": "곡괭이",
+    "en": "pickaxe",
+    "pronunciation": "gokgwaengi",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "곡괭이로 돌을 캐요.",
+    "example_en": "I mine stone with a pickaxe.",
+    "triggers": [
+      "minecraft:wooden_pickaxe",
+      "minecraft:stone_pickaxe",
+      "minecraft:iron_pickaxe",
+      "minecraft:diamond_pickaxe",
+      "minecraft:netherite_pickaxe"
+    ]
+  },
+  {
+    "id": "sword",
+    "ko": "검",
+    "en": "sword",
+    "pronunciation": "geom",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "검으로 싸워요.",
+    "example_en": "I fight with a sword.",
+    "triggers": [
+      "minecraft:wooden_sword",
+      "minecraft:stone_sword",
+      "minecraft:iron_sword",
+      "minecraft:diamond_sword",
+      "minecraft:netherite_sword"
+    ]
+  },
+  {
+    "id": "axe",
+    "ko": "도끼",
+    "en": "axe",
+    "pronunciation": "dokki",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "도끼로 나무를 베요.",
+    "example_en": "I chop wood with an axe.",
+    "triggers": [
+      "minecraft:wooden_axe",
+      "minecraft:stone_axe",
+      "minecraft:iron_axe",
+      "minecraft:diamond_axe",
+      "minecraft:netherite_axe"
+    ]
+  },
+  {
+    "id": "shovel",
+    "ko": "삽",
+    "en": "shovel",
+    "pronunciation": "sap",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "여기에 삽이 있어요.",
+    "example_en": "There is shovel here.",
+    "triggers": [
+      "minecraft:wooden_shovel",
+      "minecraft:stone_shovel",
+      "minecraft:iron_shovel",
+      "minecraft:diamond_shovel",
+      "minecraft:netherite_shovel"
+    ]
+  },
+  {
+    "id": "hoe",
+    "ko": "괭이",
+    "en": "hoe",
+    "pronunciation": "gwaengi",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "여기에 괭이가 있어요.",
+    "example_en": "There is hoe here.",
+    "triggers": [
+      "minecraft:wooden_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:diamond_hoe",
+      "minecraft:netherite_hoe"
+    ]
+  },
+  {
+    "id": "log",
+    "ko": "통나무",
+    "en": "log",
+    "pronunciation": "tongnamu",
+    "category": "nature",
+    "level": "A1",
+    "example_ko": "여기에 통나무가 있어요.",
+    "example_en": "There is log here.",
+    "triggers": [
+      "minecraft:stripped_oak_log",
+      "minecraft:stripped_spruce_log",
+      "minecraft:stripped_birch_log"
+    ]
+  },
+  {
+    "id": "planks",
+    "ko": "판자",
+    "en": "planks",
+    "pronunciation": "panja",
+    "category": "materials",
+    "level": "A1",
+    "example_ko": "여기에 판자가 있어요.",
+    "example_en": "There is planks here.",
+    "triggers": [
+      "minecraft:oak_planks",
+      "minecraft:spruce_planks",
+      "minecraft:birch_planks",
+      "minecraft:jungle_planks",
+      "minecraft:cherry_planks"
+    ]
+  },
+  {
+    "id": "stick",
+    "ko": "막대기",
+    "en": "stick",
+    "pronunciation": "makdaegi",
+    "category": "materials",
+    "level": "A1",
+    "example_ko": "여기에 막대기가 있어요.",
+    "example_en": "There is stick here.",
+    "triggers": [
+      "minecraft:stick"
+    ]
+  },
+  {
+    "id": "crafting_table",
+    "ko": "제작대",
+    "en": "crafting table",
+    "pronunciation": "jejakdae",
+    "category": "blocks",
+    "level": "A1",
+    "example_ko": "제작대에서 도구를 만들어요.",
+    "example_en": "I craft tools at a crafting table.",
+    "triggers": [
+      "minecraft:crafting_table"
+    ]
+  },
+  {
+    "id": "furnace",
+    "ko": "화로",
+    "en": "furnace",
+    "pronunciation": "hwaro",
+    "category": "blocks",
+    "level": "A1",
+    "example_ko": "화로에서 고기를 구워요.",
+    "example_en": "I cook meat in a furnace.",
+    "triggers": [
+      "minecraft:furnace"
+    ]
+  },
+  {
+    "id": "chest",
+    "ko": "상자",
+    "en": "chest",
+    "pronunciation": "sangja",
+    "category": "blocks",
+    "level": "A1",
+    "example_ko": "상자에 물건을 넣어요.",
+    "example_en": "I put items in a chest.",
+    "triggers": [
+      "minecraft:chest",
+      "minecraft:trapped_chest"
+    ]
+  },
+  {
+    "id": "bed",
+    "ko": "침대",
+    "en": "bed",
+    "pronunciation": "chimdae",
+    "category": "blocks",
+    "level": "A1",
+    "example_ko": "침대에서 자요.",
+    "example_en": "I sleep in a bed.",
+    "triggers": [
+      "minecraft:red_bed",
+      "minecraft:white_bed",
+      "minecraft:blue_bed",
+      "minecraft:black_bed",
+      "minecraft:green_bed"
+    ]
+  },
+  {
+    "id": "ladder",
+    "ko": "사다리",
+    "en": "ladder",
+    "pronunciation": "sadari",
+    "category": "blocks",
+    "level": "A1",
+    "example_ko": "여기에 사다리가 있어요.",
+    "example_en": "There is ladder here.",
+    "triggers": [
+      "minecraft:ladder"
+    ]
+  },
+  {
+    "id": "house",
+    "ko": "집",
+    "en": "house",
+    "pronunciation": "jip",
+    "category": "places",
+    "level": "A1",
+    "example_ko": "집을 지어요.",
+    "example_en": "I build a house.",
+    "triggers": []
+  },
+  {
+    "id": "door",
+    "ko": "문",
+    "en": "door",
+    "pronunciation": "mun",
+    "category": "blocks",
+    "level": "A1",
+    "example_ko": "문을 열어요.",
+    "example_en": "I open the door.",
+    "triggers": [
+      "minecraft:oak_door",
+      "minecraft:spruce_door",
+      "minecraft:iron_door",
+      "minecraft:birch_door",
+      "minecraft:cherry_door"
+    ]
+  },
+  {
+    "id": "torch",
+    "ko": "횃불",
+    "en": "torch",
+    "pronunciation": "hwetbul",
+    "category": "blocks",
+    "level": "A1",
+    "example_ko": "횃불을 설치해요.",
+    "example_en": "I place a torch.",
+    "triggers": [
+      "minecraft:torch",
+      "minecraft:soul_torch"
+    ]
+  },
+  {
+    "id": "coal",
+    "ko": "석탄",
+    "en": "coal",
+    "pronunciation": "seoktan",
+    "category": "materials",
+    "level": "A1",
+    "example_ko": "석탄을 찾았어요.",
+    "example_en": "I found coal.",
+    "triggers": [
+      "minecraft:coal",
+      "minecraft:coal_ore",
+      "minecraft:deepslate_coal_ore"
+    ]
+  },
+  {
+    "id": "iron",
+    "ko": "철",
+    "en": "iron",
+    "pronunciation": "cheol",
+    "category": "materials",
+    "level": "A1",
+    "example_ko": "철이 필요해요.",
+    "example_en": "I need iron.",
+    "triggers": [
+      "minecraft:iron_ingot",
+      "minecraft:iron_ore",
+      "minecraft:deepslate_iron_ore",
+      "minecraft:raw_iron"
+    ]
+  },
+  {
+    "id": "copper",
+    "ko": "구리",
+    "en": "copper",
+    "pronunciation": "guri",
+    "category": "materials",
+    "level": "A1",
+    "example_ko": "여기에 구리가 있어요.",
+    "example_en": "There is copper here.",
+    "triggers": [
+      "minecraft:copper_ingot",
+      "minecraft:copper_ore",
+      "minecraft:raw_copper"
+    ]
+  },
+  {
+    "id": "gold",
+    "ko": "금",
+    "en": "gold",
+    "pronunciation": "geum",
+    "category": "materials",
+    "level": "A1",
+    "example_ko": "여기에 금이 있어요.",
+    "example_en": "There is gold here.",
+    "triggers": [
+      "minecraft:gold_ingot",
+      "minecraft:gold_ore",
+      "minecraft:raw_gold"
+    ]
+  },
+  {
+    "id": "diamond",
+    "ko": "다이아몬드",
+    "en": "diamond",
+    "pronunciation": "daiamondeu",
+    "category": "materials",
+    "level": "A1",
+    "example_ko": "다이아몬드를 찾았어요!",
+    "example_en": "I found a diamond!",
+    "triggers": [
+      "minecraft:diamond",
+      "minecraft:diamond_ore",
+      "minecraft:deepslate_diamond_ore"
+    ]
+  },
+  {
+    "id": "emerald",
+    "ko": "에메랄드",
+    "en": "emerald",
+    "pronunciation": "emerald",
+    "category": "materials",
+    "level": "A1",
+    "example_ko": "여기에 에메랄드가 있어요.",
+    "example_en": "There is emerald here.",
+    "triggers": [
+      "minecraft:emerald",
+      "minecraft:emerald_ore"
+    ]
+  },
+  {
+    "id": "sand",
+    "ko": "모래",
+    "en": "sand",
+    "pronunciation": "morae",
+    "category": "nature",
+    "level": "A1",
+    "example_ko": "여기에 모래가 있어요.",
+    "example_en": "There is sand here.",
+    "triggers": [
+      "minecraft:sand",
+      "minecraft:red_sand"
+    ]
+  },
+  {
+    "id": "sandstone",
+    "ko": "사암",
+    "en": "sandstone",
+    "pronunciation": "saam",
+    "category": "nature",
+    "level": "A2",
+    "example_ko": "여기에 사암이 있어요.",
+    "example_en": "There is sandstone here.",
+    "triggers": [
+      "minecraft:sandstone",
+      "minecraft:red_sandstone"
+    ]
+  },
+  {
+    "id": "gravel",
+    "ko": "자갈",
+    "en": "gravel",
+    "pronunciation": "jagal",
+    "category": "nature",
+    "level": "A1",
+    "example_ko": "여기에 자갈이 있어요.",
+    "example_en": "There is gravel here.",
+    "triggers": [
+      "minecraft:gravel"
+    ]
+  },
+  {
+    "id": "clay",
+    "ko": "점토",
+    "en": "clay",
+    "pronunciation": "jeomto",
+    "category": "nature",
+    "level": "A2",
+    "example_ko": "여기에 점토가 있어요.",
+    "example_en": "There is clay here.",
+    "triggers": [
+      "minecraft:clay",
+      "minecraft:clay_ball"
+    ]
+  },
+  {
+    "id": "snow",
+    "ko": "눈",
+    "en": "snow",
+    "pronunciation": "nun",
+    "category": "nature",
+    "level": "A1",
+    "example_ko": "여기에 눈이 있어요.",
+    "example_en": "There is snow here.",
+    "triggers": [
+      "minecraft:snow",
+      "minecraft:snow_block",
+      "minecraft:snowball"
+    ]
+  },
+  {
+    "id": "ice",
+    "ko": "얼음",
+    "en": "ice",
+    "pronunciation": "eoreum",
+    "category": "nature",
+    "level": "A1",
+    "example_ko": "여기에 얼음이 있어요.",
+    "example_en": "There is ice here.",
+    "triggers": [
+      "minecraft:ice",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice"
+    ]
+  },
+  {
+    "id": "lava",
+    "ko": "용암",
+    "en": "lava",
+    "pronunciation": "yongam",
+    "category": "nature",
+    "level": "A1",
+    "example_ko": "여기에 용암이 있어요.",
+    "example_en": "There is lava here.",
+    "triggers": [
+      "minecraft:lava_bucket"
+    ]
+  },
+  {
+    "id": "fire",
+    "ko": "불",
+    "en": "fire",
+    "pronunciation": "bul",
+    "category": "nature",
+    "level": "A1",
+    "example_ko": "여기에 불이 있어요.",
+    "example_en": "There is fire here.",
+    "triggers": [
+      "minecraft:flint_and_steel"
+    ]
+  },
+  {
+    "id": "flower",
+    "ko": "꽃",
+    "en": "flower",
+    "pronunciation": "kkot",
+    "category": "nature",
+    "level": "A1",
+    "example_ko": "꽃이 예뻐요.",
+    "example_en": "The flower is pretty.",
+    "triggers": [
+      "minecraft:dandelion",
+      "minecraft:poppy",
+      "minecraft:blue_orchid",
+      "minecraft:allium",
+      "minecraft:oxeye_daisy",
+      "minecraft:sunflower"
+    ]
+  },
+  {
+    "id": "seed",
+    "ko": "씨앗",
+    "en": "seed",
+    "pronunciation": "ssiat",
+    "category": "farming",
+    "level": "A1",
+    "example_ko": "여기에 씨앗이 있어요.",
+    "example_en": "There is seed here.",
+    "triggers": [
+      "minecraft:wheat_seeds",
+      "minecraft:beetroot_seeds",
+      "minecraft:pumpkin_seeds",
+      "minecraft:melon_seeds"
+    ]
+  },
+  {
+    "id": "wheat",
+    "ko": "밀",
+    "en": "wheat",
+    "pronunciation": "mil",
+    "category": "farming",
+    "level": "A1",
+    "example_ko": "여기에 밀이 있어요.",
+    "example_en": "There is wheat here.",
+    "triggers": [
+      "minecraft:wheat"
+    ]
+  },
+  {
+    "id": "carrot",
+    "ko": "당근",
+    "en": "carrot",
+    "pronunciation": "danggeun",
+    "category": "farming",
+    "level": "A1",
+    "example_ko": "여기에 당근이 있어요.",
+    "example_en": "There is carrot here.",
+    "triggers": [
+      "minecraft:carrot"
+    ]
+  },
+  {
+    "id": "potato",
+    "ko": "감자",
+    "en": "potato",
+    "pronunciation": "gamja",
+    "category": "farming",
+    "level": "A1",
+    "example_ko": "여기에 감자가 있어요.",
+    "example_en": "There is potato here.",
+    "triggers": [
+      "minecraft:potato",
+      "minecraft:baked_potato"
+    ]
+  },
+  {
+    "id": "pumpkin",
+    "ko": "호박",
+    "en": "pumpkin",
+    "pronunciation": "hobak",
+    "category": "farming",
+    "level": "A1",
+    "example_ko": "여기에 호박이 있어요.",
+    "example_en": "There is pumpkin here.",
+    "triggers": [
+      "minecraft:pumpkin",
+      "minecraft:carved_pumpkin"
+    ]
+  },
+  {
+    "id": "melon",
+    "ko": "수박",
+    "en": "watermelon",
+    "pronunciation": "subak",
+    "category": "farming",
+    "level": "A1",
+    "example_ko": "여기에 수박이 있어요.",
+    "example_en": "There is watermelon here.",
+    "triggers": [
+      "minecraft:melon",
+      "minecraft:melon_slice"
+    ]
+  },
+  {
+    "id": "sugar_cane",
+    "ko": "사탕수수",
+    "en": "sugar cane",
+    "pronunciation": "satangsusu",
+    "category": "farming",
+    "level": "A2",
+    "example_ko": "여기에 사탕수수가 있어요.",
+    "example_en": "There is sugar cane here.",
+    "triggers": [
+      "minecraft:sugar_cane"
+    ]
+  },
+  {
+    "id": "cactus",
+    "ko": "선인장",
+    "en": "cactus",
+    "pronunciation": "seon-injang",
+    "category": "farming",
+    "level": "A2",
+    "example_ko": "여기에 선인장이 있어요.",
+    "example_en": "There is cactus here.",
+    "triggers": [
+      "minecraft:cactus"
+    ]
+  },
+  {
+    "id": "bread",
+    "ko": "빵",
+    "en": "bread",
+    "pronunciation": "ppang",
+    "category": "food",
+    "level": "A1",
+    "example_ko": "빵을 먹고 싶어요.",
+    "example_en": "I want to eat bread.",
+    "triggers": [
+      "minecraft:bread"
+    ]
+  },
+  {
+    "id": "meat",
+    "ko": "고기",
+    "en": "meat",
+    "pronunciation": "gogi",
+    "category": "food",
+    "level": "A1",
+    "example_ko": "여기에 고기가 있어요.",
+    "example_en": "There is meat here.",
+    "triggers": [
+      "minecraft:beef",
+      "minecraft:cooked_beef",
+      "minecraft:porkchop",
+      "minecraft:cooked_porkchop",
+      "minecraft:mutton",
+      "minecraft:cooked_mutton"
+    ]
+  },
+  {
+    "id": "chicken_meat",
+    "ko": "닭고기",
+    "en": "chicken meat",
+    "pronunciation": "dakgogi",
+    "category": "food",
+    "level": "A1",
+    "example_ko": "여기에 닭고기가 있어요.",
+    "example_en": "There is chicken meat here.",
+    "triggers": [
+      "minecraft:chicken",
+      "minecraft:cooked_chicken"
+    ]
+  },
+  {
+    "id": "fish",
+    "ko": "생선",
+    "en": "fish",
+    "pronunciation": "saengseon",
+    "category": "food",
+    "level": "A1",
+    "example_ko": "여기에 생선이 있어요.",
+    "example_en": "There is fish here.",
+    "triggers": [
+      "minecraft:cod",
+      "minecraft:cooked_cod",
+      "minecraft:salmon",
+      "minecraft:cooked_salmon"
+    ]
+  },
+  {
+    "id": "soup",
+    "ko": "수프",
+    "en": "soup",
+    "pronunciation": "supeu",
+    "category": "food",
+    "level": "A1",
+    "example_ko": "여기에 수프가 있어요.",
+    "example_en": "There is soup here.",
+    "triggers": [
+      "minecraft:mushroom_stew",
+      "minecraft:rabbit_stew",
+      "minecraft:beetroot_soup"
+    ]
+  },
+  {
+    "id": "cake",
+    "ko": "케이크",
+    "en": "cake",
+    "pronunciation": "keikeu",
+    "category": "food",
+    "level": "A1",
+    "example_ko": "여기에 케이크가 있어요.",
+    "example_en": "There is cake here.",
+    "triggers": [
+      "minecraft:cake"
+    ]
+  },
+  {
+    "id": "cookie",
+    "ko": "쿠키",
+    "en": "cookie",
+    "pronunciation": "kuki",
+    "category": "food",
+    "level": "A1",
+    "example_ko": "여기에 쿠키가 있어요.",
+    "example_en": "There is cookie here.",
+    "triggers": [
+      "minecraft:cookie"
+    ]
+  },
+  {
+    "id": "milk",
+    "ko": "우유",
+    "en": "milk",
+    "pronunciation": "uyu",
+    "category": "food",
+    "level": "A1",
+    "example_ko": "여기에 우유가 있어요.",
+    "example_en": "There is milk here.",
+    "triggers": [
+      "minecraft:milk_bucket"
+    ]
+  },
+  {
+    "id": "egg",
+    "ko": "달걀",
+    "en": "egg",
+    "pronunciation": "dalgyal",
+    "category": "food",
+    "level": "A1",
+    "example_ko": "여기에 달걀이 있어요.",
+    "example_en": "There is egg here.",
+    "triggers": [
+      "minecraft:egg"
+    ]
+  },
+  {
+    "id": "mushroom",
+    "ko": "버섯",
+    "en": "mushroom",
+    "pronunciation": "beoseot",
+    "category": "food",
+    "level": "A1",
+    "example_ko": "여기에 버섯이 있어요.",
+    "example_en": "There is mushroom here.",
+    "triggers": [
+      "minecraft:brown_mushroom",
+      "minecraft:red_mushroom"
+    ]
+  },
+  {
+    "id": "honey",
+    "ko": "꿀",
+    "en": "honey",
+    "pronunciation": "kkul",
+    "category": "food",
+    "level": "A2",
+    "example_ko": "여기에 꿀이 있어요.",
+    "example_en": "There is honey here.",
+    "triggers": [
+      "minecraft:honey_bottle",
+      "minecraft:honeycomb"
+    ]
+  },
+  {
+    "id": "sugar",
+    "ko": "설탕",
+    "en": "sugar",
+    "pronunciation": "seoltang",
+    "category": "food",
+    "level": "A1",
+    "example_ko": "여기에 설탕이 있어요.",
+    "example_en": "There is sugar here.",
+    "triggers": [
+      "minecraft:sugar"
+    ]
+  },
+  {
+    "id": "fishing_rod",
+    "ko": "낚싯대",
+    "en": "fishing rod",
+    "pronunciation": "nakksitdae",
+    "category": "tools",
+    "level": "A2",
+    "example_ko": "여기에 낚싯대가 있어요.",
+    "example_en": "There is fishing rod here.",
+    "triggers": [
+      "minecraft:fishing_rod"
+    ]
+  },
+  {
+    "id": "bucket",
+    "ko": "양동이",
+    "en": "bucket",
+    "pronunciation": "yangdongi",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "여기에 양동이가 있어요.",
+    "example_en": "There is bucket here.",
+    "triggers": [
+      "minecraft:bucket"
+    ]
+  },
+  {
+    "id": "boat",
+    "ko": "배",
+    "en": "boat",
+    "pronunciation": "bae",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "배를 타고 강을 건너요.",
+    "example_en": "I cross the river in a boat.",
+    "triggers": [
+      "minecraft:oak_boat",
+      "minecraft:spruce_boat",
+      "minecraft:birch_boat",
+      "minecraft:cherry_boat"
+    ]
+  },
+  {
+    "id": "minecart",
+    "ko": "광산 수레",
+    "en": "minecart",
+    "pronunciation": "gwangsan sure",
+    "category": "tools",
+    "level": "A2",
+    "example_ko": "여기에 광산 수레가 있어요.",
+    "example_en": "There is minecart here.",
+    "triggers": [
+      "minecraft:minecart",
+      "minecraft:chest_minecart",
+      "minecraft:furnace_minecart"
+    ]
+  },
+  {
+    "id": "map",
+    "ko": "지도",
+    "en": "map",
+    "pronunciation": "jido",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "지도를 봐요.",
+    "example_en": "I look at a map.",
+    "triggers": [
+      "minecraft:map",
+      "minecraft:filled_map"
+    ]
+  },
+  {
+    "id": "compass",
+    "ko": "나침반",
+    "en": "compass",
+    "pronunciation": "nachimban",
+    "category": "tools",
+    "level": "A2",
+    "example_ko": "여기에 나침반이 있어요.",
+    "example_en": "There is compass here.",
+    "triggers": [
+      "minecraft:compass"
+    ]
+  },
+  {
+    "id": "clock",
+    "ko": "시계",
+    "en": "clock",
+    "pronunciation": "sigye",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "시계를 봐요.",
+    "example_en": "I look at the clock.",
+    "triggers": [
+      "minecraft:clock"
+    ]
+  },
+  {
+    "id": "book",
+    "ko": "책",
+    "en": "book",
+    "pronunciation": "chaek",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "여기에 책이 있어요.",
+    "example_en": "There is book here.",
+    "triggers": [
+      "minecraft:book",
+      "minecraft:writable_book",
+      "minecraft:written_book"
+    ]
+  },
+  {
+    "id": "paper",
+    "ko": "종이",
+    "en": "paper",
+    "pronunciation": "jongi",
+    "category": "materials",
+    "level": "A1",
+    "example_ko": "여기에 종이가 있어요.",
+    "example_en": "There is paper here.",
+    "triggers": [
+      "minecraft:paper"
+    ]
+  },
+  {
+    "id": "leather",
+    "ko": "가죽",
+    "en": "leather",
+    "pronunciation": "gajuk",
+    "category": "materials",
+    "level": "A1",
+    "example_ko": "여기에 가죽이 있어요.",
+    "example_en": "There is leather here.",
+    "triggers": [
+      "minecraft:leather"
+    ]
+  },
+  {
+    "id": "wool",
+    "ko": "양털",
+    "en": "wool",
+    "pronunciation": "yangteol",
+    "category": "materials",
+    "level": "A1",
+    "example_ko": "여기에 양털이 있어요.",
+    "example_en": "There is wool here.",
+    "triggers": [
+      "minecraft:white_wool",
+      "minecraft:black_wool",
+      "minecraft:red_wool",
+      "minecraft:blue_wool"
+    ]
+  },
+  {
+    "id": "string",
+    "ko": "실",
+    "en": "string",
+    "pronunciation": "sil",
+    "category": "materials",
+    "level": "A1",
+    "example_ko": "여기에 실이 있어요.",
+    "example_en": "There is string here.",
+    "triggers": [
+      "minecraft:string"
+    ]
+  },
+  {
+    "id": "feather",
+    "ko": "깃털",
+    "en": "feather",
+    "pronunciation": "gitteol",
+    "category": "materials",
+    "level": "A2",
+    "example_ko": "여기에 깃털이 있어요.",
+    "example_en": "There is feather here.",
+    "triggers": [
+      "minecraft:feather"
+    ]
+  },
+  {
+    "id": "flint",
+    "ko": "부싯돌",
+    "en": "flint",
+    "pronunciation": "busitdol",
+    "category": "materials",
+    "level": "A2",
+    "example_ko": "여기에 부싯돌이 있어요.",
+    "example_en": "There is flint here.",
+    "triggers": [
+      "minecraft:flint"
+    ]
+  },
+  {
+    "id": "bone",
+    "ko": "뼈",
+    "en": "bone",
+    "pronunciation": "ppyeo",
+    "category": "materials",
+    "level": "A1",
+    "example_ko": "여기에 뼈가 있어요.",
+    "example_en": "There is bone here.",
+    "triggers": [
+      "minecraft:bone",
+      "minecraft:bone_meal"
+    ]
+  },
+  {
+    "id": "arrow",
+    "ko": "화살",
+    "en": "arrow",
+    "pronunciation": "hwasal",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "여기에 화살이 있어요.",
+    "example_en": "There is arrow here.",
+    "triggers": [
+      "minecraft:arrow",
+      "minecraft:spectral_arrow"
+    ]
+  },
+  {
+    "id": "bow",
+    "ko": "활",
+    "en": "bow",
+    "pronunciation": "hwal",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "활로 쏴요.",
+    "example_en": "I shoot with a bow.",
+    "triggers": [
+      "minecraft:bow"
+    ]
+  },
+  {
+    "id": "crossbow",
+    "ko": "석궁",
+    "en": "crossbow",
+    "pronunciation": "seokgung",
+    "category": "tools",
+    "level": "A2",
+    "example_ko": "여기에 석궁이 있어요.",
+    "example_en": "There is crossbow here.",
+    "triggers": [
+      "minecraft:crossbow"
+    ]
+  },
+  {
+    "id": "shield",
+    "ko": "방패",
+    "en": "shield",
+    "pronunciation": "bangpae",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "여기에 방패가 있어요.",
+    "example_en": "There is shield here.",
+    "triggers": [
+      "minecraft:shield"
+    ]
+  },
+  {
+    "id": "helmet",
+    "ko": "투구",
+    "en": "helmet",
+    "pronunciation": "tugu",
+    "category": "tools",
+    "level": "A2",
+    "example_ko": "여기에 투구가 있어요.",
+    "example_en": "There is helmet here.",
+    "triggers": [
+      "minecraft:iron_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:netherite_helmet"
+    ]
+  },
+  {
+    "id": "boots",
+    "ko": "부츠",
+    "en": "boots",
+    "pronunciation": "buteu",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "여기에 부츠가 있어요.",
+    "example_en": "There is boots here.",
+    "triggers": [
+      "minecraft:leather_boots",
+      "minecraft:iron_boots",
+      "minecraft:diamond_boots"
+    ]
+  },
+  {
+    "id": "pants",
+    "ko": "바지",
+    "en": "pants",
+    "pronunciation": "baji",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "여기에 바지가 있어요.",
+    "example_en": "There is pants here.",
+    "triggers": [
+      "minecraft:leather_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:diamond_leggings"
+    ]
+  },
+  {
+    "id": "armor",
+    "ko": "갑옷",
+    "en": "armor",
+    "pronunciation": "gabot",
+    "category": "tools",
+    "level": "A2",
+    "example_ko": "여기에 갑옷이 있어요.",
+    "example_en": "There is armor here.",
+    "triggers": [
+      "minecraft:iron_chestplate",
+      "minecraft:diamond_chestplate",
+      "minecraft:netherite_chestplate"
+    ]
+  },
+  {
+    "id": "cow",
+    "ko": "소",
+    "en": "cow",
+    "pronunciation": "so",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "소가 풀을 먹어요.",
+    "example_en": "The cow eats grass.",
+    "triggers": [
+      "minecraft:cow"
+    ]
+  },
+  {
+    "id": "pig",
+    "ko": "돼지",
+    "en": "pig",
+    "pronunciation": "dwaeji",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 돼지가 있어요.",
+    "example_en": "There is pig here.",
+    "triggers": [
+      "minecraft:pig"
+    ]
+  },
+  {
+    "id": "sheep",
+    "ko": "양",
+    "en": "sheep",
+    "pronunciation": "yang",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "양에게서 양털을 얻어요.",
+    "example_en": "I get wool from a sheep.",
+    "triggers": [
+      "minecraft:sheep"
+    ]
+  },
+  {
+    "id": "chicken",
+    "ko": "닭",
+    "en": "chicken",
+    "pronunciation": "dak",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 닭이 있어요.",
+    "example_en": "There is chicken here.",
+    "triggers": [
+      "minecraft:chicken"
+    ]
+  },
+  {
+    "id": "horse",
+    "ko": "말",
+    "en": "horse",
+    "pronunciation": "mal",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 말이 있어요.",
+    "example_en": "There is horse here.",
+    "triggers": [
+      "minecraft:horse"
+    ]
+  },
+  {
+    "id": "wolf",
+    "ko": "늑대",
+    "en": "wolf",
+    "pronunciation": "neukdae",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 늑대가 있어요.",
+    "example_en": "There is wolf here.",
+    "triggers": [
+      "minecraft:wolf"
+    ]
+  },
+  {
+    "id": "cat",
+    "ko": "고양이",
+    "en": "cat",
+    "pronunciation": "goyangi",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 고양이가 있어요.",
+    "example_en": "There is cat here.",
+    "triggers": [
+      "minecraft:cat"
+    ]
+  },
+  {
+    "id": "rabbit",
+    "ko": "토끼",
+    "en": "rabbit",
+    "pronunciation": "tokki",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 토끼가 있어요.",
+    "example_en": "There is rabbit here.",
+    "triggers": [
+      "minecraft:rabbit"
+    ]
+  },
+  {
+    "id": "bee",
+    "ko": "벌",
+    "en": "bee",
+    "pronunciation": "beol",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 벌이 있어요.",
+    "example_en": "There is bee here.",
+    "triggers": [
+      "minecraft:bee"
+    ]
+  },
+  {
+    "id": "fox",
+    "ko": "여우",
+    "en": "fox",
+    "pronunciation": "yeou",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 여우가 있어요.",
+    "example_en": "There is fox here.",
+    "triggers": [
+      "minecraft:fox"
+    ]
+  },
+  {
+    "id": "bear",
+    "ko": "곰",
+    "en": "bear",
+    "pronunciation": "gom",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 곰이 있어요.",
+    "example_en": "There is bear here.",
+    "triggers": [
+      "minecraft:polar_bear",
+      "minecraft:panda"
+    ]
+  },
+  {
+    "id": "frog",
+    "ko": "개구리",
+    "en": "frog",
+    "pronunciation": "gaeguri",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 개구리가 있어요.",
+    "example_en": "There is frog here.",
+    "triggers": [
+      "minecraft:frog"
+    ]
+  },
+  {
+    "id": "fish_mob",
+    "ko": "물고기",
+    "en": "fish (animal)",
+    "pronunciation": "mulgogi",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 물고기가 있어요.",
+    "example_en": "There is fish (animal) here.",
+    "triggers": [
+      "minecraft:cod",
+      "minecraft:salmon",
+      "minecraft:tropical_fish"
+    ]
+  },
+  {
+    "id": "squid",
+    "ko": "오징어",
+    "en": "squid",
+    "pronunciation": "ojingeo",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 오징어가 있어요.",
+    "example_en": "There is squid here.",
+    "triggers": [
+      "minecraft:squid",
+      "minecraft:glow_squid"
+    ]
+  },
+  {
+    "id": "villager",
+    "ko": "주민",
+    "en": "villager",
+    "pronunciation": "jumin",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 주민이 있어요.",
+    "example_en": "There is villager here.",
+    "triggers": [
+      "minecraft:villager"
+    ]
+  },
+  {
+    "id": "zombie",
+    "ko": "좀비",
+    "en": "zombie",
+    "pronunciation": "jombi",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "좀비가 와요!",
+    "example_en": "A zombie is coming!",
+    "triggers": [
+      "minecraft:zombie",
+      "minecraft:husk",
+      "minecraft:drowned"
+    ]
+  },
+  {
+    "id": "skeleton",
+    "ko": "스켈레톤",
+    "en": "skeleton",
+    "pronunciation": "seukelleton",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 스켈레톤이 있어요.",
+    "example_en": "There is skeleton here.",
+    "triggers": [
+      "minecraft:skeleton",
+      "minecraft:stray"
+    ]
+  },
+  {
+    "id": "spider",
+    "ko": "거미",
+    "en": "spider",
+    "pronunciation": "geomi",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 거미가 있어요.",
+    "example_en": "There is spider here.",
+    "triggers": [
+      "minecraft:spider",
+      "minecraft:cave_spider"
+    ]
+  },
+  {
+    "id": "creeper",
+    "ko": "크리퍼",
+    "en": "creeper",
+    "pronunciation": "keuripeo",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "크리퍼를 조심하세요!",
+    "example_en": "Watch out for the creeper!",
+    "triggers": [
+      "minecraft:creeper"
+    ]
+  },
+  {
+    "id": "enderman",
+    "ko": "엔더맨",
+    "en": "Enderman",
+    "pronunciation": "endeomaen",
+    "category": "mobs",
+    "level": "A2",
+    "example_ko": "여기에 엔더맨이 있어요.",
+    "example_en": "There is Enderman here.",
+    "triggers": [
+      "minecraft:enderman"
+    ]
+  },
+  {
+    "id": "witch",
+    "ko": "마녀",
+    "en": "witch",
+    "pronunciation": "manyeo",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 마녀가 있어요.",
+    "example_en": "There is witch here.",
+    "triggers": [
+      "minecraft:witch"
+    ]
+  },
+  {
+    "id": "slime",
+    "ko": "슬라임",
+    "en": "slime",
+    "pronunciation": "seullaim",
+    "category": "mobs",
+    "level": "A2",
+    "example_ko": "여기에 슬라임이 있어요.",
+    "example_en": "There is slime here.",
+    "triggers": [
+      "minecraft:slime"
+    ]
+  },
+  {
+    "id": "bat",
+    "ko": "박쥐",
+    "en": "bat",
+    "pronunciation": "bakjwi",
+    "category": "mobs",
+    "level": "A1",
+    "example_ko": "여기에 박쥐가 있어요.",
+    "example_en": "There is bat here.",
+    "triggers": [
+      "minecraft:bat"
+    ]
+  },
+  {
+    "id": "dragon",
+    "ko": "용",
+    "en": "dragon",
+    "pronunciation": "yong",
+    "category": "mobs",
+    "level": "A2",
+    "example_ko": "여기에 용이 있어요.",
+    "example_en": "There is dragon here.",
+    "triggers": [
+      "minecraft:ender_dragon"
+    ]
+  },
+  {
+    "id": "phantom",
+    "ko": "팬텀",
+    "en": "phantom",
+    "pronunciation": "paenteom",
+    "category": "mobs",
+    "level": "A2",
+    "example_ko": "여기에 팬텀이 있어요.",
+    "example_en": "There is phantom here.",
+    "triggers": [
+      "minecraft:phantom"
+    ]
+  },
+  {
+    "id": "blaze",
+    "ko": "블레이즈",
+    "en": "Blaze",
+    "pronunciation": "beulleijeu",
+    "category": "mobs",
+    "level": "A2",
+    "example_ko": "여기에 블레이즈가 있어요.",
+    "example_en": "There is Blaze here.",
+    "triggers": [
+      "minecraft:blaze"
+    ]
+  },
+  {
+    "id": "ghast",
+    "ko": "가스트",
+    "en": "Ghast",
+    "pronunciation": "gaseuteu",
+    "category": "mobs",
+    "level": "A2",
+    "example_ko": "여기에 가스트가 있어요.",
+    "example_en": "There is Ghast here.",
+    "triggers": [
+      "minecraft:ghast"
+    ]
+  },
+  {
+    "id": "piglin",
+    "ko": "피글린",
+    "en": "Piglin",
+    "pronunciation": "pigeullin",
+    "category": "mobs",
+    "level": "A2",
+    "example_ko": "여기에 피글린이 있어요.",
+    "example_en": "There is Piglin here.",
+    "triggers": [
+      "minecraft:piglin"
+    ]
+  },
+  {
+    "id": "village",
+    "ko": "마을",
+    "en": "village",
+    "pronunciation": "maeul",
+    "category": "places",
+    "level": "A1",
+    "example_ko": "마을을 찾았어요.",
+    "example_en": "I found a village.",
+    "triggers": []
+  },
+  {
+    "id": "cave",
+    "ko": "동굴",
+    "en": "cave",
+    "pronunciation": "donggul",
+    "category": "places",
+    "level": "A1",
+    "example_ko": "동굴에 들어가요.",
+    "example_en": "I enter the cave.",
+    "triggers": []
+  },
+  {
+    "id": "forest",
+    "ko": "숲",
+    "en": "forest",
+    "pronunciation": "sup",
+    "category": "places",
+    "level": "A1",
+    "example_ko": "숲에 나무가 많아요.",
+    "example_en": "There are many trees in the forest.",
+    "triggers": []
+  },
+  {
+    "id": "mountain",
+    "ko": "산",
+    "en": "mountain",
+    "pronunciation": "san",
+    "category": "places",
+    "level": "A1",
+    "example_ko": "여기에 산이 있어요.",
+    "example_en": "There is mountain here.",
+    "triggers": []
+  },
+  {
+    "id": "river",
+    "ko": "강",
+    "en": "river",
+    "pronunciation": "gang",
+    "category": "places",
+    "level": "A1",
+    "example_ko": "여기에 강이 있어요.",
+    "example_en": "There is river here.",
+    "triggers": []
+  },
+  {
+    "id": "sea",
+    "ko": "바다",
+    "en": "sea",
+    "pronunciation": "bada",
+    "category": "places",
+    "level": "A1",
+    "example_ko": "여기에 바다가 있어요.",
+    "example_en": "There is sea here.",
+    "triggers": []
+  },
+  {
+    "id": "island",
+    "ko": "섬",
+    "en": "island",
+    "pronunciation": "seom",
+    "category": "places",
+    "level": "A1",
+    "example_ko": "여기에 섬이 있어요.",
+    "example_en": "There is island here.",
+    "triggers": []
+  },
+  {
+    "id": "desert",
+    "ko": "사막",
+    "en": "desert",
+    "pronunciation": "samak",
+    "category": "places",
+    "level": "A1",
+    "example_ko": "여기에 사막이 있어요.",
+    "example_en": "There is desert here.",
+    "triggers": []
+  },
+  {
+    "id": "field",
+    "ko": "들판",
+    "en": "field",
+    "pronunciation": "deulpan",
+    "category": "places",
+    "level": "A2",
+    "example_ko": "여기에 들판이 있어요.",
+    "example_en": "There is field here.",
+    "triggers": []
+  },
+  {
+    "id": "path",
+    "ko": "길",
+    "en": "path",
+    "pronunciation": "gil",
+    "category": "places",
+    "level": "A1",
+    "example_ko": "여기에 길이 있어요.",
+    "example_en": "There is path here.",
+    "triggers": [
+      "minecraft:dirt_path"
+    ]
+  },
+  {
+    "id": "sky",
+    "ko": "하늘",
+    "en": "sky",
+    "pronunciation": "haneul",
+    "category": "nature",
+    "level": "A1",
+    "example_ko": "여기에 하늘이 있어요.",
+    "example_en": "There is sky here.",
+    "triggers": []
+  },
+  {
+    "id": "sun",
+    "ko": "태양",
+    "en": "sun",
+    "pronunciation": "taeyang",
+    "category": "nature",
+    "level": "A1",
+    "example_ko": "여기에 태양이 있어요.",
+    "example_en": "There is sun here.",
+    "triggers": []
+  },
+  {
+    "id": "moon",
+    "ko": "달",
+    "en": "moon",
+    "pronunciation": "dal",
+    "category": "nature",
+    "level": "A1",
+    "example_ko": "여기에 달이 있어요.",
+    "example_en": "There is moon here.",
+    "triggers": []
+  },
+  {
+    "id": "night",
+    "ko": "밤",
+    "en": "night",
+    "pronunciation": "bam",
+    "category": "time",
+    "level": "A1",
+    "example_ko": "밤에는 몬스터가 나와요.",
+    "example_en": "Monsters appear at night.",
+    "triggers": []
+  },
+  {
+    "id": "day",
+    "ko": "낮",
+    "en": "daytime",
+    "pronunciation": "nat",
+    "category": "time",
+    "level": "A1",
+    "example_ko": "낮은 중요해요.",
+    "example_en": "Daytime is important.",
+    "triggers": []
+  },
+  {
+    "id": "morning",
+    "ko": "아침",
+    "en": "morning",
+    "pronunciation": "achim",
+    "category": "time",
+    "level": "A1",
+    "example_ko": "아침은 중요해요.",
+    "example_en": "Morning is important.",
+    "triggers": []
+  },
+  {
+    "id": "evening",
+    "ko": "저녁",
+    "en": "evening",
+    "pronunciation": "jeonyeok",
+    "category": "time",
+    "level": "A1",
+    "example_ko": "저녁은 중요해요.",
+    "example_en": "Evening is important.",
+    "triggers": []
+  },
+  {
+    "id": "today",
+    "ko": "오늘",
+    "en": "today",
+    "pronunciation": "oneul",
+    "category": "time",
+    "level": "A1",
+    "example_ko": "오늘은 모험을 해요.",
+    "example_en": "Today I go on an adventure.",
+    "triggers": []
+  },
+  {
+    "id": "tomorrow",
+    "ko": "내일",
+    "en": "tomorrow",
+    "pronunciation": "naeil",
+    "category": "time",
+    "level": "A1",
+    "example_ko": "내일 다시 올게요.",
+    "example_en": "I will come back tomorrow.",
+    "triggers": []
+  },
+  {
+    "id": "yesterday",
+    "ko": "어제",
+    "en": "yesterday",
+    "pronunciation": "eoje",
+    "category": "time",
+    "level": "A1",
+    "example_ko": "어제는 중요해요.",
+    "example_en": "Yesterday is important.",
+    "triggers": []
+  },
+  {
+    "id": "now",
+    "ko": "지금",
+    "en": "now",
+    "pronunciation": "jigeum",
+    "category": "time",
+    "level": "A1",
+    "example_ko": "지금 가요.",
+    "example_en": "I am going now.",
+    "triggers": []
+  },
+  {
+    "id": "friend",
+    "ko": "친구",
+    "en": "friend",
+    "pronunciation": "chingu",
+    "category": "people",
+    "level": "A1",
+    "example_ko": "친구와 같이 놀아요.",
+    "example_en": "I play together with a friend.",
+    "triggers": []
+  },
+  {
+    "id": "me",
+    "ko": "저",
+    "en": "I (polite)",
+    "pronunciation": "jeo",
+    "category": "people",
+    "level": "A1",
+    "example_ko": "저는 한국어를 공부해요.",
+    "example_en": "I study Korean.",
+    "triggers": []
+  },
+  {
+    "id": "you",
+    "ko": "너",
+    "en": "you (informal)",
+    "pronunciation": "neo",
+    "category": "people",
+    "level": "A2",
+    "example_ko": "너는 어디에 있어?",
+    "example_en": "Where are you? (informal)",
+    "triggers": []
+  },
+  {
+    "id": "food",
+    "ko": "음식",
+    "en": "food",
+    "pronunciation": "eumsik",
+    "category": "food",
+    "level": "A1",
+    "example_ko": "여기에 음식이 있어요.",
+    "example_en": "There is food here.",
+    "triggers": []
+  },
+  {
+    "id": "tool",
+    "ko": "도구",
+    "en": "tool",
+    "pronunciation": "dogu",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "여기에 도구가 있어요.",
+    "example_en": "There is tool here.",
+    "triggers": []
+  },
+  {
+    "id": "weapon",
+    "ko": "무기",
+    "en": "weapon",
+    "pronunciation": "mugi",
+    "category": "tools",
+    "level": "A2",
+    "example_ko": "여기에 무기가 있어요.",
+    "example_en": "There is weapon here.",
+    "triggers": []
+  },
+  {
+    "id": "redstone",
+    "ko": "레드스톤",
+    "en": "redstone",
+    "pronunciation": "redeuseuton",
+    "category": "materials",
+    "level": "A2",
+    "example_ko": "여기에 레드스톤이 있어요.",
+    "example_en": "There is redstone here.",
+    "triggers": [
+      "minecraft:redstone",
+      "minecraft:redstone_ore",
+      "minecraft:redstone_block"
+    ]
+  },
+  {
+    "id": "obsidian",
+    "ko": "흑요석",
+    "en": "obsidian",
+    "pronunciation": "heugyoseok",
+    "category": "nature",
+    "level": "A2",
+    "example_ko": "여기에 흑요석이 있어요.",
+    "example_en": "There is obsidian here.",
+    "triggers": [
+      "minecraft:obsidian",
+      "minecraft:crying_obsidian"
+    ]
+  },
+  {
+    "id": "quartz",
+    "ko": "석영",
+    "en": "quartz",
+    "pronunciation": "seogyeong",
+    "category": "materials",
+    "level": "A2",
+    "example_ko": "여기에 석영이 있어요.",
+    "example_en": "There is quartz here.",
+    "triggers": [
+      "minecraft:quartz",
+      "minecraft:quartz_block"
+    ]
+  },
+  {
+    "id": "netherite",
+    "ko": "네더라이트",
+    "en": "netherite",
+    "pronunciation": "nedeoraiteu",
+    "category": "materials",
+    "level": "A2",
+    "example_ko": "여기에 네더라이트가 있어요.",
+    "example_en": "There is netherite here.",
+    "triggers": [
+      "minecraft:netherite_ingot",
+      "minecraft:ancient_debris"
+    ]
+  },
+  {
+    "id": "portal",
+    "ko": "차원문",
+    "en": "portal",
+    "pronunciation": "chawonmun",
+    "category": "blocks",
+    "level": "A2",
+    "example_ko": "차원문으로 들어가요.",
+    "example_en": "I go through the portal.",
+    "triggers": [
+      "minecraft:end_portal_frame"
+    ]
+  },
+  {
+    "id": "potion",
+    "ko": "물약",
+    "en": "potion",
+    "pronunciation": "muryak",
+    "category": "tools",
+    "level": "A2",
+    "example_ko": "물약을 마시면 힘이 생겨요.",
+    "example_en": "I gain strength if I drink a potion.",
+    "triggers": [
+      "minecraft:potion",
+      "minecraft:splash_potion",
+      "minecraft:lingering_potion"
+    ]
+  },
+  {
+    "id": "enchant",
+    "ko": "마법 부여",
+    "en": "enchanting",
+    "pronunciation": "mabeop buyeo",
+    "category": "blocks",
+    "level": "A2",
+    "example_ko": "여기에 마법 부여가 있어요.",
+    "example_en": "There is enchanting here.",
+    "triggers": [
+      "minecraft:enchanting_table"
+    ]
+  },
+  {
+    "id": "anvil",
+    "ko": "모루",
+    "en": "anvil",
+    "pronunciation": "moru",
+    "category": "blocks",
+    "level": "A2",
+    "example_ko": "여기에 모루가 있어요.",
+    "example_en": "There is anvil here.",
+    "triggers": [
+      "minecraft:anvil",
+      "minecraft:chipped_anvil",
+      "minecraft:damaged_anvil"
+    ]
+  },
+  {
+    "id": "blast_furnace",
+    "ko": "용광로",
+    "en": "blast furnace",
+    "pronunciation": "yonggwangno",
+    "category": "blocks",
+    "level": "A2",
+    "example_ko": "여기에 용광로가 있어요.",
+    "example_en": "There is blast furnace here.",
+    "triggers": [
+      "minecraft:blast_furnace"
+    ]
+  },
+  {
+    "id": "smoker",
+    "ko": "훈연기",
+    "en": "smoker",
+    "pronunciation": "hunyeongi",
+    "category": "blocks",
+    "level": "A2",
+    "example_ko": "여기에 훈연기가 있어요.",
+    "example_en": "There is smoker here.",
+    "triggers": [
+      "minecraft:smoker"
+    ]
+  },
+  {
+    "id": "barrel",
+    "ko": "통",
+    "en": "barrel",
+    "pronunciation": "tong",
+    "category": "blocks",
+    "level": "A2",
+    "example_ko": "여기에 통이 있어요.",
+    "example_en": "There is barrel here.",
+    "triggers": [
+      "minecraft:barrel"
+    ]
+  },
+  {
+    "id": "lantern",
+    "ko": "랜턴",
+    "en": "lantern",
+    "pronunciation": "raenteon",
+    "category": "blocks",
+    "level": "A1",
+    "example_ko": "여기에 랜턴이 있어요.",
+    "example_en": "There is lantern here.",
+    "triggers": [
+      "minecraft:lantern",
+      "minecraft:soul_lantern"
+    ]
+  },
+  {
+    "id": "campfire",
+    "ko": "모닥불",
+    "en": "campfire",
+    "pronunciation": "modakbul",
+    "category": "blocks",
+    "level": "A1",
+    "example_ko": "여기에 모닥불이 있어요.",
+    "example_en": "There is campfire here.",
+    "triggers": [
+      "minecraft:campfire",
+      "minecraft:soul_campfire"
+    ]
+  },
+  {
+    "id": "bell",
+    "ko": "종",
+    "en": "bell",
+    "pronunciation": "jong",
+    "category": "blocks",
+    "level": "A1",
+    "example_ko": "여기에 종이 있어요.",
+    "example_en": "There is bell here.",
+    "triggers": [
+      "minecraft:bell"
+    ]
+  },
+  {
+    "id": "sign",
+    "ko": "표지판",
+    "en": "sign",
+    "pronunciation": "pyojipan",
+    "category": "blocks",
+    "level": "A2",
+    "example_ko": "여기에 표지판이 있어요.",
+    "example_en": "There is sign here.",
+    "triggers": [
+      "minecraft:oak_sign",
+      "minecraft:spruce_sign",
+      "minecraft:cherry_sign"
+    ]
+  },
+  {
+    "id": "rail",
+    "ko": "레일",
+    "en": "rail",
+    "pronunciation": "reil",
+    "category": "blocks",
+    "level": "A2",
+    "example_ko": "여기에 레일이 있어요.",
+    "example_en": "There is rail here.",
+    "triggers": [
+      "minecraft:rail",
+      "minecraft:powered_rail",
+      "minecraft:detector_rail"
+    ]
+  },
+  {
+    "id": "piston",
+    "ko": "피스톤",
+    "en": "piston",
+    "pronunciation": "piseuton",
+    "category": "blocks",
+    "level": "A2",
+    "example_ko": "여기에 피스톤이 있어요.",
+    "example_en": "There is piston here.",
+    "triggers": [
+      "minecraft:piston",
+      "minecraft:sticky_piston"
+    ]
+  },
+  {
+    "id": "lever",
+    "ko": "레버",
+    "en": "lever",
+    "pronunciation": "rebeo",
+    "category": "blocks",
+    "level": "A2",
+    "example_ko": "여기에 레버가 있어요.",
+    "example_en": "There is lever here.",
+    "triggers": [
+      "minecraft:lever"
+    ]
+  },
+  {
+    "id": "button",
+    "ko": "버튼",
+    "en": "button",
+    "pronunciation": "beoteun",
+    "category": "blocks",
+    "level": "A1",
+    "example_ko": "여기에 버튼이 있어요.",
+    "example_en": "There is button here.",
+    "triggers": [
+      "minecraft:oak_button",
+      "minecraft:stone_button"
+    ]
+  },
+  {
+    "id": "pressure_plate",
+    "ko": "압력판",
+    "en": "pressure plate",
+    "pronunciation": "amnyeokpan",
+    "category": "blocks",
+    "level": "A2",
+    "example_ko": "여기에 압력판이 있어요.",
+    "example_en": "There is pressure plate here.",
+    "triggers": [
+      "minecraft:stone_pressure_plate",
+      "minecraft:oak_pressure_plate"
+    ]
+  },
+  {
+    "id": "hopper",
+    "ko": "호퍼",
+    "en": "hopper",
+    "pronunciation": "hopeo",
+    "category": "blocks",
+    "level": "A2",
+    "example_ko": "여기에 호퍼가 있어요.",
+    "example_en": "There is hopper here.",
+    "triggers": [
+      "minecraft:hopper"
+    ]
+  },
+  {
+    "id": "water_bottle",
+    "ko": "유리병",
+    "en": "glass bottle",
+    "pronunciation": "yuribyeong",
+    "category": "tools",
+    "level": "A1",
+    "example_ko": "유리병에 물을 담아요.",
+    "example_en": "I put water in a glass bottle.",
+    "triggers": [
+      "minecraft:glass_bottle"
+    ]
+  },
+  {
+    "id": "saddle",
+    "ko": "안장",
+    "en": "saddle",
+    "pronunciation": "anjang",
+    "category": "tools",
+    "level": "A2",
+    "example_ko": "여기에 안장이 있어요.",
+    "example_en": "There is saddle here.",
+    "triggers": [
+      "minecraft:saddle"
+    ]
+  },
+  {
+    "id": "name_tag",
+    "ko": "이름표",
+    "en": "name tag",
+    "pronunciation": "ireumpyo",
+    "category": "tools",
+    "level": "A2",
+    "example_ko": "여기에 이름표가 있어요.",
+    "example_en": "There is name tag here.",
+    "triggers": [
+      "minecraft:name_tag"
+    ]
+  },
+  {
+    "id": "spyglass",
+    "ko": "망원경",
+    "en": "spyglass",
+    "pronunciation": "mangwongyeong",
+    "category": "tools",
+    "level": "A2",
+    "example_ko": "여기에 망원경이 있어요.",
+    "example_en": "There is spyglass here.",
+    "triggers": [
+      "minecraft:spyglass"
+    ]
+  },
+  {
+    "id": "ender_pearl",
+    "ko": "엔더 진주",
+    "en": "ender pearl",
+    "pronunciation": "endeo jinju",
+    "category": "materials",
+    "level": "A2",
+    "example_ko": "여기에 엔더 진주가 있어요.",
+    "example_en": "There is ender pearl here.",
+    "triggers": [
+      "minecraft:ender_pearl"
+    ]
+  },
+  {
+    "id": "ender_eye",
+    "ko": "엔더의 눈",
+    "en": "eye of Ender",
+    "pronunciation": "endeoui nun",
+    "category": "tools",
+    "level": "A2",
+    "example_ko": "여기에 엔더의 눈이 있어요.",
+    "example_en": "There is eye of Ender here.",
+    "triggers": [
+      "minecraft:ender_eye"
+    ]
+  },
+  {
+    "id": "nether_star",
+    "ko": "네더의 별",
+    "en": "Nether star",
+    "pronunciation": "nedeoui byeol",
+    "category": "materials",
+    "level": "A2",
+    "example_ko": "여기에 네더의 별이 있어요.",
+    "example_en": "There is Nether star here.",
+    "triggers": [
+      "minecraft:nether_star"
+    ]
+  },
+  {
+    "id": "experience_bottle",
+    "ko": "경험치 병",
+    "en": "bottle o' enchanting",
+    "pronunciation": "gyeongheomchi byeong",
+    "category": "tools",
+    "level": "A2",
+    "example_ko": "여기에 경험치 병이 있어요.",
+    "example_en": "There is bottle o' enchanting here.",
+    "triggers": [
+      "minecraft:experience_bottle"
+    ]
+  }
+]
